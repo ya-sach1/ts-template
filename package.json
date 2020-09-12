@@ -1,0 +1,11 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "ya-sach1 <ikurogane85@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "compile": "tsc"
+  }
+}
