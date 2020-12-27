@@ -17,10 +17,6 @@
 		"incremental": true,
 		"lib": ["ESNext", "ESNext.Array", "ESNext.AsyncIterable", "ESNext.Intl", "DOM"]
 	},
-	"include": [
-		"src/**/*"
-	],
-	"exclude": [
-		"node_modules"
-	]
+	"include": ["src/**/*", "tests/index.test.ts"],
+	"exclude": ["node_modules"]
 }

@@ -1,4 +1,3 @@
-build
-config.ts
 node_modules
+build
 coverage

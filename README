@@ -1,0 +1,4 @@
+to use this template you need to install globally the following packages: - jest - typescript
+
+note to self: you need typescript in local dependencies too for jest to work correctly.
+note to self 2: if you install jest globally and not locally, ts-jest'll complain that jest isn't installed but it works just fine. i still have it locally cause of ci.

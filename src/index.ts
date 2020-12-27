@@ -1,5 +1,2 @@
-import { randomInt } from './structures/functions';
-
-(() => {
-	console.log(`Hello! ${randomInt(50)}`);
-})();
+import { multiply } from './lib/index';
+console.log(multiply(1, 2));
