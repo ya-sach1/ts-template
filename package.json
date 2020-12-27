@@ -12,9 +12,9 @@
 		"test": "yarn run prestart && jest",
 		"test:coverage": "yarn run prestart && jest --coverage",
 		"lint": "eslint . --ext .ts",
-		"lint:fix": "yarn run lint --fix",
+		"lint:fix": "yarn run lint --quiet --fix && echo -e '\\033[32mLinted.'",
 		"format": "prettier .",
-		"format:fix": "yarn run format -w"
+		"format:fix": "yarn run --silent format -w --loglevel silent && echo -e '\\033[32mFormatted.'"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^4.11.0",
