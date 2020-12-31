@@ -1,7 +1,7 @@
 {
 	"name": "project-name",
 	"version": "1.0.0",
-	"main": "build/src/index.js",
+	"main": "build/index.js",
 	"author": "project-author",
 	"license": "MIT",
 	"private": false,
@@ -13,7 +13,7 @@
 		"test:coverage": "yarn run prestart && jest --coverage",
 		"lint": "eslint . --ext .ts",
 		"lint:fix": "yarn run lint --quiet --fix && echo -e '\\033[32mLinted.'",
-		"format": "prettier .",
+		"format": "prettier --config .prettierrc.yaml --ext ts .",
 		"format:fix": "yarn run --silent format -w --loglevel silent && echo -e '\\033[32mFormatted.'"
 	},
 	"devDependencies": {
